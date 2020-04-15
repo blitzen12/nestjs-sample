@@ -1,0 +1,70 @@
+{
+  "defaultSeverity": "error",
+  "camelcase": "off",
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-eslint-rules"
+  ],
+  "jsRules": {},
+  "rules": {
+    "max-line-length": [
+      true,
+      150
+    ],
+    "trailing-comma": [
+      true
+    ],
+    "rulesDirectory": [],
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "ter-indent": [
+      true,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-this-assignment": false,
+    "ter-arrow-parens": [
+      true,
+      "always"
+    ],
+    "variable-name": [
+      false,
+      "allow-snake-case"
+    ],
+    "import-name": [
+      false
+    ],
+    "newline-before-return": true,
+    "ter-newline-after-var": [
+      true,
+      "always"
+    ],
+    "no-unused-variable": true,
+    "align": [
+      false
+    ],
+    "no-parameter-reassignment": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "prefer-array-literal": [
+      true,
+      {
+        "allow-type-parameters": true
+      }
+    ]
+  }
+}
